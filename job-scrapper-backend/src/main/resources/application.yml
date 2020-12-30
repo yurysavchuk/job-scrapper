@@ -1,0 +1,3 @@
+dev.by:
+  baseUrl: https://jobs.dev.by
+  vacancy-list-url: https://jobs.dev.by/?filter[specialization_title]=Java
