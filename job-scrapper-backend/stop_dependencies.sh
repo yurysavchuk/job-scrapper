@@ -1,2 +1,2 @@
 #!/bin/bash
-docker kill postgres
+docker kill postgres-jobscrapper

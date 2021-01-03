@@ -1,3 +1,15 @@
+spring:
+  application:
+    name: job-scrapper-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/vacancies
+    username: jobscrapper
+    password: mysecretpassword
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+
 dev.by:
   baseUrl: https://jobs.dev.by
   vacancy-list-url: https://jobs.dev.by/?filter[specialization_title]=Java
