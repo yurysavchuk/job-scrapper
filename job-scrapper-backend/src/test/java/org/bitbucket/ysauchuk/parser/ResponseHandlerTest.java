@@ -14,7 +14,7 @@ public class ResponseHandlerTest {
   public void parseVacancyResponseTest() throws IOException, URISyntaxException {
     // given a response
     // and response handler
-    ResponseHandler handler = new VacancyListResponseHandler();
+    ResponseHandler<Vacancy> handler = new VacancyListResponseHandler();
     Document response = FileUtils.readDocumentFromFile("response/vacancies_response.html");
 
     // when the response is handled
